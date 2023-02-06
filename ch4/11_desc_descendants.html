@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- 후손 선택자와 자손 선택자는 특정 태그의 후손과 자손을 선태할 때 사용 -->
+<!-- 특정한 태그의 자손을 선택할 때 사용 -->
+<html lang="en">
+<head>
+       <title>CSS3</title>
+       <style>
+              #header > h1{
+                     background: rgb(46, 25, 32);
+                     width: 220px;
+              }
+              div#nav{
+                     background: lightcoral;
+                     width: 220px;                     
+              }
+              #section > h1{
+                     background:lightsalmon;
+                     width: 220px;                     
+              }
+              p{
+                     background: lightseagreen;
+                     color:blueviolet
+              }
+       </style>
+</head>
+<body>
+       <div id="header">
+              <h1 class="title">lorem insum</h1>
+              <div id="nav">
+                     <h1>navigation</h1>
+              </div>
+       </div>
+       <div id="section">
+              <h1 class="title">lorem ipsum</h1><br>
+              <p>
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim nemo culpa architecto adipisci necessitatibus, rem iste dolorem ea fugit vitae numquam. Natus voluptates fugiat, nostrum quasi dolorum omnis at.
+              </p>
+       </div>
+</body>
+</html>

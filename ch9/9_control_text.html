@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Basic</title>
+    <script>
+        // 이벤트를 연결합니다.
+        window.onload = function () {
+            // 변수를 선언합니다.
+            var output = '';
+            for (var i = 0; i < 10; i++) {
+                output += '<h1>Header - ' + i + '</h1>';
+            }
+
+            // 문서 객체 내부의 글자를 변경합니다.
+            document.body.innerHTML = output;
+            // 문서 객체 내부의 글자 변경. 입력한 글자가 body 태그 내부에 바로 들어감
+        };
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

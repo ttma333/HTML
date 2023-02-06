@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- 미디어 쿼리는 css에서 어떤 스타일을 선택적으로 적용하고 싶을 떄 사용하며 두가지 방법이 있다.-->
+<!-- 미디어 규칙 @media "미디어 쿼리"-->
+<html lang="en">
+<head>
+    <title>Media Type</title>
+    <style>
+        @media (max-width: 499px) {
+            body{
+                background: red;
+            }
+        }
+        @media (min-width: 500px) and (max-width:799px) {
+            body{
+                background: green;
+            }
+        }
+        @media (min-width: 800px) {
+            body{
+                background: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit ea, quaerat ducimus qui dignissimos eum aspernatur et dolores atque perspiciatis omnis vel? Optio, amet! Ipsam, asperiores. Ducimus in aliquam laboriosam?</p>
+</body>
+</html>

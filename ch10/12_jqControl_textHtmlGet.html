@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- html 메서드는 첫번쨰에 위치한 문서 객체의 글자 추출-->
+<html>
+<head>
+    <title>jQuery Basic</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            // 변수를 선언합니다.
+            var text = $('h1').text();
+            var html = $('h1').html(); // 첫번쨰 문서객체의 글자 추출
+
+            // 출력합니다.
+            $('body').append("<p>text: " + text + '</p>');
+            $('body').append("<p>html: " + html + '</p>');
+        });
+    </script>
+</head>
+<body>
+    <h1>Header - 0</h1>
+    <h1>Header - 1</h1>
+</body>
+</html>
